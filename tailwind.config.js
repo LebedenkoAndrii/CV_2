@@ -7,6 +7,9 @@ module.exports = {
       height: {
         secHeight: "650px",
       },
+      backgroundSize: {
+        s300: "300% 300%",
+      },
     },
   },
   plugins: [],
