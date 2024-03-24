@@ -8,64 +8,94 @@
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="bg-slate-900 px-10 text-white">
+  <body class="bg-slate-900 text-white">
     <header
-      class="container flex flex-col justify-center w-full my-auto py-7 items-center h-secHeight gap-5"
+      class="flex flex-col justify-center items-center w-full h-screen py-7 bg-header"
+      id="home"
     >
-      <!-- <h1 class="text-black text-3xl font-bold">CV</h1> <nav> <ul class="flex text-black text-2xl font-bold gap-6"> <li class="hover:text-slate-500 transition-all duration-300"> <a href="#!">Home</a> </li> <li class="hover:text-slate-500 transition-all duration-300"> <a href="#!">About</a> </li> <li class="hover:text-slate-500 transition-all duration-300"> <a href="#!">Education</a> </li> <li class="hover:text-slate-500 transition-all duration-300"> <a href="#!">Skills</a> </li> <li class="hover:text-slate-500 transition-all duration-300"> <a href="#!">Experience</a> </li> <li class="hover:text-slate-500 transition-all duration-300"> <a href="#!">Contact</a> </li> </ul> </nav> -->
-      <p class="text-2xl font-bold italic">Lebedenko Andrii</p>
-      <h1 class="gradient-text text-4xl font-bold bg-s300">
-        Frontend Developer
-      </h1>
-      <ul class="flex gap-4">
-        <li>#motivated</li>
-        <li>#skilled</li>
-        <li>#purposeful</li>
-      </ul>
-      <ul class="flex gap-4 place-content-center">
-        <li
-          class="h-14 w-14 border-2 flex justify-center items-center rounded-full hover:bg-slate-500 transition-all duration-300"
-          title="LinkedIn"
-        >
-          <a
-            href="https://www.linkedin.com/in/andrii-lebedenko-70383a29b/"
-            target="_blank"
+      <div class="flex flex-col justify-center items-center gap-5 absolute">
+        <p class="text-2xl font-bold italic">Lebedenko Andrii</p>
+        <h1 class="gradient-text text-4xl font-bold bg-s300">
+          Frontend Developer
+        </h1>
+        <ul class="flex gap-4">
+          <li>#motivated</li>
+          <li>#skilled</li>
+          <li>#purposeful</li>
+        </ul>
+        <ul class="flex gap-4 place-content-center">
+          <li
+            class="h-12 w-12 border-2 flex justify-center items-center rounded-full hover:bg-slate-500 transition-all duration-300"
+            title="LinkedIn"
           >
-            <img
-              class="h-10"
-              src="./assets/social/linkedin.png"
-              alt="linkedin"
-            />
-          </a>
-        </li>
-        <li
-          class="h-14 w-14 border-2 flex justify-center items-center rounded-full hover:bg-slate-500 transition-all duration-300"
-          title="GitHub"
-        >
-          <a href="https://github.com/LebedenkoAndrii" target="_blank">
-            <img class="h-10" src="./assets/social/github.png" alt="github" />
-          </a>
-        </li>
-        <li
-          class="h-14 w-14 border-2 flex justify-center items-center rounded-full hover:bg-slate-500 transition-all duration-300"
-          title="Telegram"
-        >
-          <a href="https://t.me/andrii_228" target="_blank">
-            <img
-              class="h-10"
-              src="./assets/social/telegram.png"
-              alt="telegram"
-            />
-          </a>
-        </li>
-      </ul>
+            <a
+              href="https://www.linkedin.com/in/andrii-lebedenko-70383a29b/"
+              target="_blank"
+            >
+              <img
+                class="h-9"
+                src="./assets/social/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+          </li>
+          <li
+            class="h-12 w-12 border-2 flex justify-center items-center rounded-full hover:bg-slate-500 transition-all duration-300"
+            title="GitHub"
+          >
+            <a href="https://github.com/LebedenkoAndrii" target="_blank">
+              <img class="h-9" src="./assets/social/github.png" alt="github" />
+            </a>
+          </li>
+          <li
+            class="h-12 w-12 border-2 flex justify-center items-center rounded-full hover:bg-slate-500 transition-all duration-300"
+            title="Telegram"
+          >
+            <a href="https://t.me/andrii_228" target="_blank">
+              <img
+                class="h-9"
+                src="./assets/social/telegram.png"
+                alt="telegram"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
+      <nav
+        class="h-14 w-full flex justify-end items-center px-10 py-7 border-b-[1px] border-slate-600 transition-all duration-300"
+        id="nav"
+      >
+        <ul class="w 1/2 flex text-lg font-bold gap-6">
+          <li class="hover:text-purple-500 transition-all duration-300">
+            <a href="#!">Home</a>
+          </li>
+          <li class="hover:text-purple-500 transition-all duration-300">
+            <a href="#!">About</a>
+          </li>
+          <li class="hover:text-purple-500 transition-all duration-300">
+            <a href="#!">Education</a>
+          </li>
+          <li class="hover:text-purple-500 transition-all duration-300">
+            <a href="#!">Skills</a>
+          </li>
+          <li class="hover:text-purple-500 transition-all duration-300">
+            <a href="#!">Experience</a>
+          </li>
+        </ul>
+      </nav>
       <section
         id="about"
-        class="container h-secHeight flex justify-between items-center gap-20"
+        class="h-screen flex justify-between items-center gap-20"
+      ></section>
+      <section
+        id="education"
+        class="h-screen flex justify-between items-center gap-20"
       ></section>
     </main>
     <footer></footer>
+
+    <script src="./js/nav.js"></script>
   </body>
 </html>
