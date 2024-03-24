@@ -1,11 +1,16 @@
 window.addEventListener("scroll", function () {
-  var nav = document.getElementById("nav");
-  var homeSection = document.getElementById("home");
-  var homeSectionHeight = homeSection.offsetHeight;
+  let nav = document.getElementById("nav");
+  let homeSection = document.getElementById("home");
+  let homeSectionHeight = homeSection.offsetHeight;
+
+  var secAbout = document.getElementById("about");
+  let navHeight = nav.offsetHeight;
 
   if (window.scrollY >= homeSectionHeight) {
     nav.classList.add("fixed-nav");
+    secAbout.style.marginTop = navHeight + "px";
   } else {
     nav.classList.remove("fixed-nav");
+    secAbout.style.marginTop = "0px";
   }
 });

@@ -61,13 +61,18 @@
           </li>
         </ul>
       </div>
+      <div
+        class="h-14 w-8 flex justify-center border-2 border-slate-100 bottom-8 rounded-full absolute"
+      >
+        <div class="w-1 h-3 bg-slate-100 rounded-full wheel absolute"></div>
+      </div>
     </header>
     <main>
       <nav
-        class="h-14 w-full flex justify-end items-center px-10 py-7 border-b-[1px] border-slate-600 transition-all duration-300"
+        class="h-14 w-1/2 flex justify-center mx-auto items-center px-10 py-7 rounded-b-full border-2 border-slate-600 backdrop-blur-sm"
         id="nav"
       >
-        <ul class="w 1/2 flex text-lg font-bold gap-6">
+        <ul class="flex text-lg font-bold gap-6 uppercase">
           <li class="hover:text-purple-500 transition-all duration-300">
             <a href="#!">Home</a>
           </li>
@@ -75,24 +80,65 @@
             <a href="#!">About</a>
           </li>
           <li class="hover:text-purple-500 transition-all duration-300">
-            <a href="#!">Education</a>
-          </li>
-          <li class="hover:text-purple-500 transition-all duration-300">
             <a href="#!">Skills</a>
           </li>
           <li class="hover:text-purple-500 transition-all duration-300">
-            <a href="#!">Experience</a>
+            <a href="#!">Portfolio</a>
+          </li>
+          <li class="hover:text-purple-500 transition-all duration-300">
+            <a href="#!">Education</a>
           </li>
         </ul>
       </nav>
       <section
         id="about"
-        class="h-screen flex justify-between items-center gap-20"
-      ></section>
-      <section
+        class="h-screen flex flex-row justify-between items-center gap-20 px-20"
+      >
+        <p class="w-1/2 bg-lime-300">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
+          reiciendis veritatis rem ipsam possimus facilis adipisci ullam dolores
+          excepturi quia laborum hic id consequuntur deserunt fugit recusandae
+          eos, distinctio quo fugiat nemo eaque! Ad voluptates architecto harum
+          cum eveniet. Perferendis delectus beatae odio ea, corrupti sit
+          suscipit dolore ex laborum. Maiores consectetur, at incidunt, nam quos
+          voluptatibus reiciendis beatae officiis sint maxime et voluptates
+          quibusdam est soluta ut, mollitia eveniet optio quasi accusamus.
+          Dolorem exercitationem voluptatibus, eaque officia aliquid quisquam
+          unde voluptas eos facere. Sint molestiae soluta vitae aliquam esse.
+          Natus sint earum assumenda excepturi autem illum, omnis modi porro!
+        </p>
+        <div
+          class="w-[400px] h-3/4 rounded-lg border-[1px] flex flex-col p-8 gap-3"
+        >
+          <img
+            class="bg-cover bg-center rounded-full"
+            src="./assets/photo/avatar.jpg"
+            alt="avatar"
+          />
+          <div class="h-2/3 text-lg flex flex-col gap-2">
+            <div class="flex flex-row justify-between">
+              <p class="w-1/2">Name:</p>
+              <p class="w-1/2">Lebedenko Andrii</p>
+            </div>
+            <div class="flex flex-row justify-between">
+              <p class="w-1/2">Birth:</p>
+              <p class="w-1/2">02.07.2004</p>
+            </div>
+            <div class="flex flex-row justify-between">
+              <p class="w-1/2">Location:</p>
+              <p class="w-1/2">Ukraine, Cherkasy</p>
+            </div>
+            <div class="flex flex-row justify-between">
+              <p class="w-1/2">Citizenship:</p>
+              <p class="w-1/2">ukrainian</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section
         id="education"
         class="h-screen flex justify-between items-center gap-20"
-      ></section>
+      ></section> -->
     </main>
     <footer></footer>
 

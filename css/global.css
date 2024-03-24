@@ -50,11 +50,23 @@
 
 /* NAV FIXED */
 .fixed-nav {
-  background-color: rgb(226 232 240);
-  color: rgb(15 23 42);
+  background-color: transparent;
+  color: #f2f3f4;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
   z-index: 999;
-  transition: all 0.1s ease-in-out;
+}
+.wheel {
+  animation: wheel 0.8s linear infinite;
+}
+@keyframes wheel {
+  0% {
+    top: 0.3rem;
+  }
+  100% {
+    top: 1.2rem;
+    opacity: 0;
+  }
 }
