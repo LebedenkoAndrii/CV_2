@@ -73,72 +73,314 @@
         id="nav"
       >
         <ul class="flex text-lg font-bold gap-6 uppercase">
-          <li class="hover:text-purple-500 transition-all duration-300">
-            <a href="#!">Home</a>
+          <li class="hover:text-lime-400 transition-all duration-300">
+            <a href="#home">Home</a>
           </li>
-          <li class="hover:text-purple-500 transition-all duration-300">
-            <a href="#!">About</a>
+          <li class="hover:text-lime-500 transition-all duration-300">
+            <a href="#about">About</a>
           </li>
-          <li class="hover:text-purple-500 transition-all duration-300">
-            <a href="#!">Skills</a>
+          <li class="hover:text-lime-500 transition-all duration-300">
+            <a href="#skills">Skills</a>
           </li>
-          <li class="hover:text-purple-500 transition-all duration-300">
-            <a href="#!">Portfolio</a>
+          <li class="hover:text-lime-500 transition-all duration-300">
+            <a href="#portfolio">Portfolio</a>
           </li>
-          <li class="hover:text-purple-500 transition-all duration-300">
+          <li class="hover:text-lime-500 transition-all duration-300">
             <a href="#!">Education</a>
           </li>
         </ul>
       </nav>
       <section
         id="about"
-        class="h-screen flex flex-row justify-between items-center gap-20 px-20"
+        class="min-h-secHeight flex flex-col justify-between items-center gap-20 px-40"
       >
-        <p class="w-1/2 bg-lime-300">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
-          reiciendis veritatis rem ipsam possimus facilis adipisci ullam dolores
-          excepturi quia laborum hic id consequuntur deserunt fugit recusandae
-          eos, distinctio quo fugiat nemo eaque! Ad voluptates architecto harum
-          cum eveniet. Perferendis delectus beatae odio ea, corrupti sit
-          suscipit dolore ex laborum. Maiores consectetur, at incidunt, nam quos
-          voluptatibus reiciendis beatae officiis sint maxime et voluptates
-          quibusdam est soluta ut, mollitia eveniet optio quasi accusamus.
-          Dolorem exercitationem voluptatibus, eaque officia aliquid quisquam
-          unde voluptas eos facere. Sint molestiae soluta vitae aliquam esse.
-          Natus sint earum assumenda excepturi autem illum, omnis modi porro!
-        </p>
-        <div
-          class="w-[400px] h-3/4 rounded-lg border-[1px] flex flex-col p-8 gap-3"
-        >
-          <img
-            class="bg-cover bg-center rounded-full"
-            src="./assets/photo/avatar.jpg"
-            alt="avatar"
-          />
-          <div class="h-2/3 text-lg flex flex-col gap-2">
-            <div class="flex flex-row justify-between">
-              <p class="w-1/2">Name:</p>
-              <p class="w-1/2">Lebedenko Andrii</p>
-            </div>
-            <div class="flex flex-row justify-between">
-              <p class="w-1/2">Birth:</p>
-              <p class="w-1/2">02.07.2004</p>
-            </div>
-            <div class="flex flex-row justify-between">
-              <p class="w-1/2">Location:</p>
-              <p class="w-1/2">Ukraine, Cherkasy</p>
-            </div>
-            <div class="flex flex-row justify-between">
-              <p class="w-1/2">Citizenship:</p>
-              <p class="w-1/2">ukrainian</p>
+        <h2 class="mt-10 text-[3rem] font-bold">- About -</h2>
+        <div class="flex flex-row justify-between items-center gap-20">
+          <div class="w-1/2 indent-5 text-justify">
+            <p class="font-bold text-2xl mb-10 w-full text-center">
+              Hi, I'm Andrii.
+            </p>
+            <p class="">
+              I am a highly motivated front-end developer with a passion for
+              crafting intuitive and visually stunning web experiences. Though I
+              have limited experience, my drive to tackle new challenges and my
+              dedication to personal growth make me an asset to any team.
+            </p>
+            <p>
+              My journey in front-end development has been fueled by a deep
+              interest in technology and a relentless pursuit of knowledge. From
+              HTML and CSS to JavaScript frameworks like React, I am constantly
+              expanding my skill set to stay ahead in this ever-evolving field.
+            </p>
+            <p>
+              What sets me apart is not just my technical proficiency, but also
+              my collaborative spirit and eagerness to learn from others. I
+              thrive in environments where teamwork is valued and ideas are
+              freely exchanged.
+            </p>
+            <p>
+              I am seeking opportunities with forward-thinking companies that
+              foster a culture of continuous learning and prioritize the
+              professional development of their employees. Let's connect and
+              embark on a journey to create something truly amazing together.
+            </p>
+          </div>
+
+          <div
+            class="w-[400px] min-h-3/4 rounded-lg border-[1px] flex flex-col p-8 gap-5"
+          >
+            <img
+              class="bg-cover bg-center rounded-full"
+              src="./assets/photo/avatar.jpg"
+              alt="avatar"
+            />
+            <div class="h-2/3 text-lg flex flex-col gap-3">
+              <div class="flex flex-row justify-between">
+                <p class="w-1/2">Name:</p>
+                <p class="w-1/2">Lebedenko Andrii</p>
+              </div>
+              <hr class="border-slate-600 w-full" />
+              <div class="flex flex-row justify-between">
+                <p class="w-1/2">Birth:</p>
+                <p class="w-1/2">02.07.2004</p>
+              </div>
+              <hr class="border-slate-600 w-full" />
+              <div class="flex flex-row justify-between">
+                <p class="w-1/2">Location:</p>
+                <p class="w-1/2">Ukraine, Cherkasy</p>
+              </div>
+              <hr class="border-slate-600 w-full" />
+              <div class="flex flex-row justify-between">
+                <p class="w-1/2">Citizenship:</p>
+                <p class="w-1/2">ukrainian</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- <section
-        id="education"
-        class="h-screen flex justify-between items-center gap-20"
-      ></section> -->
+
+      <section
+        id="skills"
+        class="min-h-secHeight flex flex-col items-center gap-20 px-40"
+      >
+        <h2 class="mt-10 text-[3rem] font-bold">- Skills -</h2>
+
+        <div class="flex flex-row gap-8 flex-wrap w-full">
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/html.png" alt="html" />
+            <span>HTML5</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/css.png" alt="css" />
+            <span>CSS3</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/js.png" alt="js" />
+            <span>JS</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/jquery.png"
+              alt="jquery"
+            />
+            <span>JQuery</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/git.png" alt="git" />
+            <span>Git</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/react.png"
+              alt="react"
+            />
+            <span>React</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/reactrouterdom.png"
+              alt="react-router-dom"
+            />
+            <span>React-router-dom</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/tw.png"
+              alt="tailwind"
+            />
+            <span>Tailwind</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/scss.png" alt="scss" />
+            <span>SCSS</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/vite.png" alt="vite" />
+            <span>Vite</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="mt-8 w-16 h-16"
+              src="./assets/skills-icons/npm.png"
+              alt="npm"
+            />
+            <span class="mt-[0.4rem]">NPM</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/openweather.png"
+              alt="open-weather"
+            />
+            <span>Openweather API</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/ipapi.png"
+              alt="IP api"
+            />
+            <span>IP API</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-8 w-full">
+          <p class="text-lg">Also have experience with:</p>
+          <div class="flex flex-row gap-8 flex-wrap">
+            <div class="h-24 flex flex-col justify-between items-center gap-3">
+              <img
+                class="h-16"
+                src="./assets/skills-icons/c++.png"
+                alt="html"
+              />
+              <span>C++</span>
+            </div>
+            <div class="h-24 flex flex-col justify-between items-center gap-3">
+              <img
+                class="h-16"
+                src="./assets/skills-icons/csharp.png"
+                alt="html"
+              />
+              <span>C#</span>
+            </div>
+            <div class="h-24 flex flex-col justify-between items-center gap-3">
+              <img
+                class="h-16"
+                src="./assets/skills-icons/java.png"
+                alt="html"
+              />
+              <span>Java</span>
+            </div>
+            <div class="h-24 flex flex-col justify-between items-center gap-3">
+              <img
+                class="h-16"
+                src="./assets/skills-icons/sql.png"
+                alt="html"
+              />
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="h-secHeight flex flex-col items-center gap-20 px-40"
+        id="portfolio"
+      >
+        <h2 class="mt-10 text-[3rem] font-bold">- Portfolio -</h2>
+        <div class="grid grid-cols-3 items-center gap-20">
+          <div
+            class="min-h-[430px] w-[300px] bg-slate-700 rounded-lg p-5 flex flex-col gap-3 justify-start items-center border-slate-600 border-2 shadow-md shadow-slate-200"
+          >
+            <img
+              class="rounded-lg h-auto w-full"
+              src="./assets/pic-cards/forecast.png"
+              alt="weather-forecast"
+            />
+            <h3 class="text-lg font-bold">Weather forecast</h3>
+            <p class="text-justify">
+              This site is a weather forecast. First page shows current weather.
+              Second page shows forecast for next 5 days (step 3 hours). Made
+              with React JS + Vite. <br />
+              API: OpenWeather and IP.
+            </p>
+            <a
+              class="text-lg underline"
+              href="https://github.com/LebedenkoAndrii/weather_forecast"
+              target="_blank"
+              >Link to repository</a
+            >
+          </div>
+
+          <div
+            class="min-h-[430px] w-[300px] bg-slate-700 rounded-lg p-5 flex flex-col gap-3 justify-start items-center border-slate-600 border-2 shadow-md shadow-slate-200"
+          >
+            <img
+              class="rounded-lg h-1/3 w-full"
+              src="./assets/pic-cards/todo.png"
+              alt="todo"
+            />
+            <h3 class="text-lg font-bold">Todo app</h3>
+            <p class="text-justify">
+              Simple todo app. You can add and delete tasks. Filter tasks by
+              status. Made with pure js. Also can switch theme.
+            </p>
+            <a
+              class="text-lg underline"
+              href="https://github.com/LebedenkoAndrii/todo-app"
+              target="_blank"
+              >Link to repository</a
+            >
+          </div>
+
+          <div
+            class="min-h-[430px] w-[300px] bg-slate-700 rounded-lg p-5 flex flex-col gap-3 justify-start items-center border-slate-600 border-2 shadow-md shadow-slate-200"
+          >
+            <img
+              class="rounded-lg h-auto w-full"
+              src="./assets/pic-cards/tip_calc.png"
+              alt="tip_calculator"
+            />
+            <h3 class="text-lg font-bold">Tip calculator</h3>
+            <p class="text-justify">
+              User can calculate tip with appropriate percentage for many
+              people.
+            </p>
+            <a
+              class="text-lg underline"
+              href="https://github.com/LebedenkoAndrii/tip_calculator/tree/main"
+              target="_blank"
+              >Link to repository</a
+            >
+          </div>
+
+          <div
+            class="min-h-[430px] w-[300px] bg-slate-700 rounded-lg p-5 flex flex-col gap-3 justify-start items-center border-slate-600 border-2 shadow-md shadow-slate-200"
+          >
+            <img
+              class="rounded-lg h-auto w-full opacity-50"
+              src="./assets/pic-cards/coming-soon.jpg"
+              alt="tip_calculator"
+            />
+            <h3 class="text-lg font-bold"></h3>
+            <p class="text-justify">-</p>
+            <a
+              class="text-lg underline"
+              href="https://github.com/LebedenkoAndrii"
+              target="_blank"
+              >Link to git</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="min-h-secHeight flex flex-col items-center gap-20 px-40">
+        <h2 class="mt-10 text-[3rem] font-bold">- Education -</h2>
+      </section>
     </main>
     <footer></footer>
 

@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
 /* HEADE H1 GRADIENT */
 
 .gradient-text {
@@ -69,4 +77,10 @@
     top: 1.2rem;
     opacity: 0;
   }
+}
+nav:hover li {
+  opacity: 0.75;
+}
+nav ul li:hover {
+  opacity: 1;
 }

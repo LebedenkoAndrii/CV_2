@@ -4,8 +4,8 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
-      height: {
-        secHeight: "650px",
+      minHeight: {
+        secHeight: "750px",
       },
       backgroundSize: {
         s300: "300% 300%",
