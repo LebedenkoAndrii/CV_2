@@ -84,3 +84,9 @@ nav:hover li {
 nav ul li:hover {
   opacity: 1;
 }
+
+/* LINK ANIMATION */
+
+.link-anim:active {
+  transform: scale(0.95);
+}
