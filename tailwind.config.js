@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       minHeight: {
-        secHeight: "750px",
+        secHeight: "650px",
       },
       backgroundSize: {
         s300: "300% 300%",
