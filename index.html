@@ -5,6 +5,546 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+  <body class="bg-slate-900 text-white">
+    <header
+      class="flex flex-col justify-center items-center w-full h-screen py-7 bg-header"
+      id="home"
+    >
+      <div class="flex flex-col justify-center items-center gap-5 absolute">
+        <p class="text-2xl font-bold italic">Lebedenko Andrii</p>
+        <h1 class="gradient-text text-4xl font-bold bg-s300">
+          Frontend Developer
+        </h1>
+        <ul class="flex gap-4">
+          <li>#motivated</li>
+          <li>#skilled</li>
+          <li>#purposeful</li>
+        </ul>
+        <ul class="flex gap-4 place-content-center">
+          <li
+            class="h-12 w-12 border-2 flex justify-center items-center rounded-full hover:bg-slate-500 transition-all duration-300"
+            title="LinkedIn"
+          >
+            <a
+              href="https://www.linkedin.com/in/andrii-lebedenko-70383a29b/"
+              target="_blank"
+            >
+              <img
+                class="h-9"
+                src="./assets/social/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+          </li>
+          <li
+            class="h-12 w-12 border-2 flex justify-center items-center rounded-full hover:bg-slate-500 transition-all duration-300"
+            title="GitHub"
+          >
+            <a href="https://github.com/LebedenkoAndrii" target="_blank">
+              <img class="h-9" src="./assets/social/github.png" alt="github" />
+            </a>
+          </li>
+          <li
+            class="h-12 w-12 border-2 flex justify-center items-center rounded-full hover:bg-slate-500 transition-all duration-300"
+            title="Telegram"
+          >
+            <a href="https://t.me/andrii_228" target="_blank">
+              <img
+                class="h-9"
+                src="./assets/social/telegram.png"
+                alt="telegram"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="h-14 w-8 flex justify-center border-2 border-slate-100 bottom-8 rounded-full absolute"
+      >
+        <div class="w-1 h-3 bg-slate-100 rounded-full wheel absolute"></div>
+      </div>
+    </header>
+    <main>
+      <nav
+        class="h-14 w-1/2 flex justify-center mx-auto items-center px-10 py-7 rounded-b-full border-2 border-slate-600 backdrop-blur-sm"
+        id="nav"
+      >
+        <ul class="flex text-xl font-bold gap-6 uppercase">
+          <li class="hover:text-lime-400 transition-all duration-300">
+            <a href="#home">Home</a>
+          </li>
+          <li class="hover:text-lime-500 transition-all duration-300">
+            <a href="#about">About</a>
+          </li>
+          <li class="hover:text-lime-500 transition-all duration-300">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="hover:text-lime-500 transition-all duration-300">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="hover:text-lime-500 transition-all duration-300">
+            <a href="#experience">Experience</a>
+          </li>
+        </ul>
+      </nav>
+      <section
+        id="about"
+        class="min-h-secHeight flex flex-col justify-between items-center gap-20 px-40"
+      >
+        <h2 class="mt-10 text-[3rem] font-bold">- About -</h2>
+        <div class="flex flex-row justify-between items-center gap-20">
+          <div class="w-1/2 indent-5 text-justify">
+            <p class="font-bold text-2xl mb-10 w-full text-center">
+              Hi, I'm Andrii.
+            </p>
+            <p class="">
+              I am a highly motivated front-end developer with a passion for
+              crafting intuitive and visually stunning web experiences. Though I
+              have limited experience, my drive to tackle new challenges and my
+              dedication to personal growth make me an asset to any team.
+            </p>
+            <p>
+              My journey in front-end development has been fueled by a deep
+              interest in technology and a relentless pursuit of knowledge. From
+              HTML and CSS to JavaScript frameworks like React, I am constantly
+              expanding my skill set to stay ahead in this ever-evolving field.
+            </p>
+            <p>
+              What sets me apart is not just my technical proficiency, but also
+              my collaborative spirit and eagerness to learn from others. I
+              thrive in environments where teamwork is valued and ideas are
+              freely exchanged.
+            </p>
+            <p>
+              I am seeking opportunities with forward-thinking companies that
+              foster a culture of continuous learning and prioritize the
+              professional development of their employees. Let's connect and
+              embark on a journey to create something truly amazing together.
+            </p>
+          </div>
+
+          <div
+            class="w-[400px] min-h-3/4 rounded-lg border-[1px] flex flex-col p-8 gap-5"
+          >
+            <img
+              class="bg-cover bg-center rounded-full"
+              src="./assets/photo/avatar.jpg"
+              alt="avatar"
+            />
+            <div class="h-2/3 text-lg flex flex-col gap-3">
+              <div class="flex flex-row justify-between">
+                <p class="w-1/2">Name:</p>
+                <p class="w-1/2">Lebedenko Andrii</p>
+              </div>
+              <hr class="border-slate-600 w-full" />
+              <div class="flex flex-row justify-between">
+                <p class="w-1/2">Birth:</p>
+                <p class="w-1/2">02.07.2004</p>
+              </div>
+              <hr class="border-slate-600 w-full" />
+              <div class="flex flex-row justify-between">
+                <p class="w-1/2">Location:</p>
+                <p class="w-1/2">Ukraine, Cherkasy</p>
+              </div>
+              <hr class="border-slate-600 w-full" />
+              <div class="flex flex-row justify-between">
+                <p class="w-1/2">Citizenship:</p>
+                <p class="w-1/2">ukrainian</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="skills"
+        class="min-h-secHeight flex flex-col items-center gap-20 px-40"
+      >
+        <h2 class="mt-10 text-[3rem] font-bold">- Skills -</h2>
+
+        <div class="flex flex-row gap-8 flex-wrap w-full">
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/html.png" alt="html" />
+            <span>HTML5</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/css.png" alt="css" />
+            <span>CSS3</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/js.png" alt="js" />
+            <span>JS</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/ts.png" alt="ts" />
+            <span>TS</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/jquery.png"
+              alt="jquery"
+            />
+            <span>JQuery</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/git.png" alt="git" />
+            <span>Git</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/react.png"
+              alt="react"
+            />
+            <span>React</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/reactrouterdom.png"
+              alt="react-router-dom"
+            />
+            <span>React-router-dom</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/tw.png"
+              alt="tailwind"
+            />
+            <span>Tailwind</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/scss.png" alt="scss" />
+            <span>SCSS</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img class="h-16" src="./assets/skills-icons/vite.png" alt="vite" />
+            <span>Vite</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="mt-8 w-16 h-16"
+              src="./assets/skills-icons/npm.png"
+              alt="npm"
+            />
+            <span class="mt-[0.4rem]">NPM</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/openweather.png"
+              alt="open-weather"
+            />
+            <span>Openweather API</span>
+          </div>
+          <div class="h-24 flex flex-col justify-between items-center gap-3">
+            <img
+              class="h-16"
+              src="./assets/skills-icons/ipapi.png"
+              alt="IP api"
+            />
+            <span>IP API</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-8 w-full">
+          <p class="text-lg">Also have experience with:</p>
+          <div class="flex flex-row gap-8 flex-wrap">
+            <div class="h-24 flex flex-col justify-between items-center gap-3">
+              <img
+                class="h-16"
+                src="./assets/skills-icons/c++.png"
+                alt="html"
+              />
+              <span>C++</span>
+            </div>
+            <div class="h-24 flex flex-col justify-between items-center gap-3">
+              <img
+                class="h-16"
+                src="./assets/skills-icons/csharp.png"
+                alt="html"
+              />
+              <span>C#</span>
+            </div>
+            <div class="h-24 flex flex-col justify-between items-center gap-3">
+              <img
+                class="h-16"
+                src="./assets/skills-icons/java.png"
+                alt="html"
+              />
+              <span>Java</span>
+            </div>
+            <div class="h-24 flex flex-col justify-between items-center gap-3">
+              <img
+                class="h-16"
+                src="./assets/skills-icons/sql.png"
+                alt="html"
+              />
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="h-secHeight flex flex-col items-center gap-20 px-40"
+        id="portfolio"
+      >
+        <h2 class="mt-10 text-[3rem] font-bold">- Portfolio -</h2>
+        <div class="grid grid-cols-3 items-center gap-20">
+          <div
+            class="min-h-[430px] w-[300px] bg-slate-700 rounded-lg p-5 flex flex-col gap-3 justify-start items-center border-slate-600 border-2 shadow-md shadow-slate-200"
+          >
+            <img
+              class="rounded-lg h-auto w-full"
+              src="./assets/pic-cards/forecast.png"
+              alt="weather-forecast"
+            />
+            <h3 class="text-lg font-bold">Weather forecast</h3>
+            <p class="text-justify">
+              This site is a weather forecast. First page shows current weather.
+              Second page shows forecast for next 5 days (step 3 hours). Made
+              with React JS + Vite. <br />
+              API: OpenWeather and IP.
+            </p>
+            <a
+              class="text-lg underline hover:text-slate-300 link-anim"
+              href="https://weather-forecast-theta-eight.vercel.app/"
+              target="_blank"
+              >Visit</a
+            >
+          </div>
+
+          <div
+            class="min-h-[430px] w-[300px] bg-slate-700 rounded-lg p-5 flex flex-col gap-3 justify-start items-center border-slate-600 border-2 shadow-md shadow-slate-200"
+          >
+            <img
+              class="rounded-lg h-auto w-full"
+              src="./assets/pic-cards/crts.png"
+              alt="tip_calculator"
+            />
+            <h3 class="text-lg font-bold">Car racing typing simulator</h3>
+            <p class="text-justify">
+              It's a web-based application where users compete in speed and
+              accuracy of typing. The game has two modes: single and
+              multiplayer. Players can create or join rooms, compete in real
+              time, and track their scores on the leaderboard.
+            </p>
+            <a
+              class="text-lg underline hover:text-slate-300 link-anim"
+              href="https://diploma-7f61b.web.app/"
+              target="_blank"
+              >Visit</a
+            >
+          </div>
+
+          <div
+            class="min-h-[430px] w-[300px] bg-slate-700 rounded-lg p-5 flex flex-col gap-3 justify-start items-center border-slate-600 border-2 shadow-md shadow-slate-200"
+          >
+            <img
+              class="rounded-lg h-1/3 w-full"
+              src="./assets/pic-cards/todo.png"
+              alt="todo"
+            />
+            <h3 class="text-lg font-bold">Todo app</h3>
+            <p class="text-justify">
+              Simple todo app. You can add and delete tasks. Filter tasks by
+              status. Made with pure js. Also can switch theme.
+            </p>
+            <a
+              class="text-lg underline hover:text-slate-300 link-anim"
+              href="https://lebedenkoandrii.github.io/todo-app/"
+              target="_blank"
+              >Visit</a
+            >
+          </div>
+
+          <div
+            class="min-h-[430px] w-[300px] bg-slate-700 rounded-lg p-5 flex flex-col gap-3 justify-start items-center border-slate-600 border-2 shadow-md shadow-slate-200"
+          >
+            <img
+              class="rounded-lg h-auto w-full"
+              src="./assets/pic-cards/tip_calc.png"
+              alt="tip_calculator"
+            />
+            <h3 class="text-lg font-bold">Tip calculator</h3>
+            <p class="text-justify">
+              User can calculate tip with appropriate percentage for many
+              people.
+            </p>
+            <a
+              class="text-lg underline hover:text-slate-300 link-anim"
+              href="https://lebedenkoandrii.github.io/tip_calculator/"
+              target="_blank"
+              >Visit</a
+            >
+          </div>
+
+          <div
+            class="min-h-[430px] w-[300px] bg-slate-700 rounded-lg p-5 flex flex-col gap-3 justify-start items-center border-slate-600 border-2 shadow-md shadow-slate-200"
+          >
+            <img
+              class="rounded-lg h-auto w-full opacity-50"
+              src="./assets/pic-cards/coming-soon.jpg"
+              alt="tip_calculator"
+            />
+            <h3 class="text-lg font-bold"></h3>
+            <p class="text-justify">-</p>
+            <a
+              class="text-lg underline hover:text-slate-300 link-anim"
+              href="https://github.com/LebedenkoAndrii"
+              target="_blank"
+              >Link to git</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="min-h-secHeight flex flex-col items-center gap-20 px-40"
+        id="experience"
+      >
+        <h2 class="mt-10 text-[3rem] font-bold">- Experience -</h2>
+        <div class="w-full">
+          <div class="flex flex-col gap-3">
+            <h3 class="text-3xl font-bold">Practice</h3>
+            <a
+              href="https://everlabs.com/"
+              class="text-xl underline text-[#F50045] font-semibold"
+              >Everlabs</a
+            >
+            <p class="text-base">Year: 2024</p>
+            <p class="text-xl font-semibold">Frontend developer</p>
+            <div
+              class="indent-5 leading-7 w-3/4 text-justify flex flex-col gap-3"
+            >
+              <p>
+                I have the honor to share with you some impressions and
+                achievements during my practice at the innovative IT company
+                Everlabs in 2024. As a front-end developer, I had a unique
+                opportunity to research and develop my skills in the field of
+                web development, in particular by creating my own website for
+                weather forecasting using React.js and Vite technologies.
+              </p>
+              <p>
+                Using the powerful capabilities and tools of React JS,I was able
+                to create a dynamic and intuitive interface for the weather
+                forecast site.
+              </p>
+              <p>
+                The process of creating this site allowed me to learn not only
+                the technical aspects of React JS, but also to develop project
+                management and problem solving skills. Each stage of development
+                required me to analyze, design and implement concepts, which
+                helped me expand my knowledge and skills.
+              </p>
+              <p>
+                In building this project, I also focused on the importance of
+                user experience and accessibility, ensuring that my site is not
+                only functional, but also convenient for all users, regardless
+                of their needs or limitations.
+              </p>
+              <p>
+                In this company, I gained invaluable experience that helped me
+                develop as a professional in the field of web development. I am
+                grateful to Everlabs for the opportunity to work with highly
+                qualified professionals and inspiring projects, and I am ready
+                to contribute to the further success of the company.
+              </p>
+            </div>
+          </div>
+          <hr class="my-10" />
+
+          <div class="flex flex-col gap-3">
+            <h3 class="text-xl font-bold">Internship</h3>
+            <a
+              href="https://everlabs.com/"
+              class="text-xl underline text-[#F50045] font-semibold"
+              >Everlabs</a
+            >
+            <p class="text-base">Year: 2024</p>
+            <p class="text-xl font-semibold">Frontend developer</p>
+            <div
+              class="indent-5 leading-7 w-3/4 flex flex-col gap-3 text-justify"
+            >
+              <p>
+                During my internship at Everlabs as a frontend developer, I
+                worked on the Car Racing Typing Simulator project. Together with
+                the team, we created a web application where users can compete
+                in speed and accuracy of typing. The game has two main game
+                modes: single and multiplayer.
+              </p>
+
+              <p class="font-bold">Main functionality:</p>
+              <ul class="list-disc pl-10">
+                <li>
+                  Single player mode : Players can train by typing and track
+                  their progress.
+                </li>
+                <li>
+                  Multiplayer : Players can create or join rooms, compete
+                  against each other in real time.
+                </li>
+                Leaderboard : Leaderboard displays the best player scores.
+                <li>
+                  Account Management : Users can create accounts, log in via
+                  email or Google.
+                </li>
+                <li>
+                  Room Management : Users can create and customize rooms for
+                  multiplayer competitions.
+                </li>
+              </ul>
+
+              <p>
+                The project was developed using React for the frontend part and
+                Ruby on Rails for the backend. We used Tailwind CSS to style the
+                interface, which allowed us to quickly and efficiently create an
+                adaptive and attractive design.
+              </p>
+
+              <p class="font-bold">
+                My contribution to the project included the development of the
+                frontend part of the following functionality:
+              </p>
+
+              <ul class="list-disc pl-10">
+                <li>
+                  Leaderboard : Create a leaderboard interface where the best
+                  player scores are displayed.
+                </li>
+                <li>
+                  Multiplayer Room : Developing an interface for creating and
+                  managing rooms for multiplayer competitions.
+                </li>
+                <li>
+                  Account : Implementation of the account management interface,
+                  including authorization via email and Google.
+                </li>
+              </ul>
+
+              <p class="font-bold">
+                This experience has allowed me to significantly improve my
+                skills in frontend application development and teamwork.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="h-12 border-t-2 border-slate-100 flex flex-row items-center justify-center px-5 py-2"
+    >
+      <p class="text-center text-slate-400">
+        © 2023 Andrii Lebedenko. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="./js/nav.js"></script>
+  </body>
 </html>
