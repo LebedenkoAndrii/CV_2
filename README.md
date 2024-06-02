@@ -54,4 +54,4 @@ For any inquiries or feedback, please reach out to me via [lebedenko1928@gmail.c
 
 ---
 
-Visit my portfolio at [My Portfolio](https://lebedenkoandrii.github.io/CV_2/).
+Visit my portfolio at [CV](https://lebedenkoandrii.github.io/CV_2/).
