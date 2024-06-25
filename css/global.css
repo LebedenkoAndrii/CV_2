@@ -66,6 +66,15 @@ section {
   transform: translate(-50%, 0);
   z-index: 999;
 }
+.fixed-nav-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+/* WHEEL ANIMATION */
+
 .wheel {
   animation: wheel 0.8s linear infinite;
 }
@@ -78,6 +87,9 @@ section {
     opacity: 0;
   }
 }
+
+/* NAV ANIMATION */
+
 nav:hover li {
   opacity: 0.75;
 }
@@ -89,4 +101,10 @@ nav ul li:hover {
 
 .link-anim:active {
   transform: scale(0.95);
+}
+
+/* NAV FIXED */
+
+#nav-menu.hidden {
+  display: none;
 }
