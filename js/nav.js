@@ -37,5 +37,6 @@ navItems.forEach((item) => {
     let navMenu = document.getElementById("nav-menu");
     this.classList.toggle("open");
     navMenu.classList.toggle("hidden");
+    navMenu.classList.toggle("flex");
   });
 });
